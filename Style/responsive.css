@@ -1,0 +1,20 @@
+/*responsividade para uma tela de um máximo de largura até 650px, adaptando o display de Geekflix e as demais categorias*/
+@media screen and (max-width:650px){ 
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    
+    }
+}
+
+@media screen and (min-width:900px){
+    .descricao{
+        width: 50%;
+    }
+    
+}

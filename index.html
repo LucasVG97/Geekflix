@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/main.css">
+    <title>Geekflix</title>
+
+    <!-- responsividade css-->
+    <link rel="stylesheet" href="Style/responsive.css">
+    
+    <!-- Arquivos owl css-->
+    <link rel="stylesheet" href="Style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="Style/owl/owl.theme.default.min.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h2 class="logo">GEEKFLIX</h2>
+            <nav>
+                <a href="">Início</a>
+                <a href="">Shounen</a>
+                <a href="">Seinen</a>
+                <a href="">Webtoon</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="anime-principal">
+            <div class="container">
+                <h3 class="titulo">ONE PIECE</h3>
+                <p class="descricao">Monkey D. Luffy, um jovem que, inspirado por seu ídolo de infância e poderoso pirata Shanks, "o Ruivo", sai em uma
+                jornada do mar East Blue para encontrar o famoso tesouro One Piece e proclamar-se o Rei dos Piratas.</p>
+
+                <div class="botoes">
+                    <!--Usa-se role="button" para deixar claro q independente do lugar q esteja rendezirando, isso é um botão, questões de SEO -->
+                    <a href="https://www.crunchyroll.com/pt-br/one-piece/videos" target="_blank" class="textolink">
+                        <button role="button" class="botao">
+                            <i class="fas fa-play"></i> <!--Icone de play, fontawesome-->
+                            ASSISTIR AGORA
+                        </button>
+                    </a>
+
+                    <a href="https://www.crunchyroll.com/pt-br/one-piece/more" target="_blank" class="textolink">
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </a>
+                </div>
+            </div>   
+        </div>
+    </main>
+
+    <!--Fazendo o carrossel, utilisando owl. É preciso referenciar pelo jquery com $, pode se copiar o setup no proprio site -->
+
+    <div class="carrossel-animes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                        <a href="https://www.crunchyroll.com/pt-br/jujutsu-kaisen" target="_blank">
+                            <img class="box-anime" src="img/Jujutsu.jpg" alt="Jujutsu Kaisen">
+                        </a> 
+                        <p class="nome-anime">Jujutsu Kaisen</p>
+                </div>
+
+                <div class="item">
+                         <a href="https://www.crunchyroll.com/pt-br/my-hero-academia" target="_blank">
+                            <img class="box-anime" src="img/Boku.png" alt="Boku no Hero">
+                         </a> 
+                        <p class="nome-anime">Boku no Hero</p>
+                </div>
+
+                <div class="item">
+                        <a href="https://www.crunchyroll.com/pt-br/demon-slayer-kimetsu-no-yaiba" target="_blank">
+                            <img class="box-anime" src="img/Kimetsu.jpg" alt="Kimetsu no Yaiba">
+                        </a> 
+                        <p class="nome-anime">Kimetsu no Yaiba</p>
+                </div>
+
+                <div class="item">
+                        <a href="https://www.crunchyroll.com/pt-br/sword-art-online" target="_blank">
+                            <img class="box-anime" src="img/Sao.jpg" alt="Sword Art Online">
+                        </a> 
+                        <p class="nome-anime">Sword Art Online</p>
+                </div>
+
+                <div class="item">
+                        <a href="https://www.crunchyroll.com/pt-br/haikyu" target="_blank">
+                            <img class="box-anime" src="img/Haikyuu.jpg" alt="Haikyuu">
+                        </a> 
+                        <p class="nome-anime">Haikyu!!</p>
+                </div>
+
+                <div class="item">
+                        <a href="https://www.crunchyroll.com/pt-br/hunter-x-hunter" target="_blank">
+                            <img class="box-anime" src="img/HxH.png" alt="Hunter x Hunter">
+                        </a> 
+                        <p class="nome-anime">Hunter x Hunter</p>
+                </div>
+                <div class="item">
+                        <a href="https://www.crunchyroll.com/pt-br/naruto" target="_blank">
+                            <img class="box-anime" src="img/naruto.jpg" alt="Naruto">
+                        </a> 
+                        <p class="nome-anime">Naruto Shippuden</p>
+                </div>
+
+                <div class="item">
+                       <a href="https://www.crunchyroll.com/pt-br/reborn" target="_blank">
+                            <img class="box-anime" src="img/reborn.png" alt="Katekyo Hitman Reborn">
+                        </a> 
+                        <p class="nome-anime">Katekyo Hitman Reborn</p>
+                </div>
+
+                <div class="item">
+                       <a href="https://www.crunchyroll.com/pt-br/soul-eater" target="_blank">
+                            <img class="box-anime" src="img/Soul.jpg" alt="Soul Eater">
+                        </a> 
+                        <p class="nome-anime">Soul Eater</p>
+                </div>
+
+                <div class="item">
+                       <a href="https://mangalivre.net/manga/solo-leveling/7702" target="_blank">
+                            <img class="box-anime" src="img/Solo.png" alt="Solo Leveling">
+                        </a> 
+                        <p class="nome-anime">Solo Leveling</p>
+                </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/a25bb1de3d.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+   
+
+</body>
+
+    <footer>
+        <div class="container">
+            <h3 class="rodape">GEEKFLIX</h3>
+            <p class="contact">Apenas alguns animes legais que fazem parte da cultura geek <br> Autor: Lucas Gonçalves</p>
+        </div>
+    </footer>
+
+</html>
